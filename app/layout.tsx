@@ -1,30 +1,33 @@
+import "./globals.css";
+
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
-      <body className="min-h-screen bg-white text-neutral-900">
-        <div className="mx-auto max-w-5xl px-4">
-          <header className="py-6 border-b">
-            <nav className="flex justify-between">
-              <span className="font-medium">Simba Chasumba</span>
-              <div className="space-x-4 text-sm">
-                <a href="/">Home</a>
-                <a href="/work">Work</a>
-                <a href="/about">About</a>
-              </div>
-            </nav>
-          </header>
+      <body className="max-w-5xl mx-auto px-6 py-6 bg-white text-neutral-900">
+        {/* Header */}
+        <header className="py-6 border-b border-neutral-200">
+          <nav className="flex justify-between text-sm">
+            <span className="font-medium">Simba Chasumba</span>
+            <div className="flex gap-6">
+              <a href="/">Home</a>
+              <a href="/work">Work</a>
+              <a href="/about">About</a>
+            </div>
+          </nav>
+        </header>
 
-          <main className="py-12">{children}</main>
+        {/* Page content */}
+        <main className="py-12">{children}</main>
 
-          <footer className="py-12 text-sm text-neutral-500">
-            © {new Date().getFullYear()}
-          </footer>
-        </div>
+        {/* Footer */}
+        <footer className="py-12 text-sm text-neutral-500 border-t border-neutral-200">
+          © {new Date().getFullYear()}
+        </footer>
       </body>
     </html>
-  )
+  );
 }

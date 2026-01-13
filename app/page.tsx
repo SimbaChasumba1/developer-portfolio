@@ -6,22 +6,21 @@ export default function Home() {
         {/* Hero */}
         <section className="space-y-6">
           <h1 className="text-4xl font-semibold leading-tight">
-            I build production web systems with React, Node.js, and .NET.
+                I build production web systems with <span className="underline decoration-neutral-400">React, Node.js, and .NET</span>.
           </h1>
           <p className="text-lg text-neutral-600 leading-relaxed">
-            I focus on clean system design, clear user flows, and shipping
-            real, deployed applications that solve practical problems.
-          </p>
+                I focus on clean system design, reliable user flows, and shipping real, deployed applications.
+         </p>
           <a
-            href="#systems"
-            className="inline-block text-sm text-neutral-900 underline underline-offset-4"
+            href="/work"
+            className="inline-block text-sm underline underline-offset-4"
           >
             View systems →
           </a>
         </section>
 
-        {/* Systems */}
-        <section id="systems" className="space-y-12">
+        {/* Systems Preview */}
+        <section className="space-y-12">
           <h2 className="text-sm font-medium uppercase tracking-wide text-neutral-500">
             Selected Systems
           </h2>
@@ -32,8 +31,8 @@ export default function Home() {
                 Client Project (Autofixer Registration)
               </h3>
               <p className="text-neutral-600">
-                A production web system built for a real client to manage
-                core business workflows and data.
+                A production system built for a real client to manage
+                onboarding, authentication, and core business workflows.
               </p>
               <p className="text-sm text-neutral-500">
                 React · Node.js · .NET · Live
@@ -52,7 +51,7 @@ export default function Home() {
               </h3>
               <p className="text-neutral-600">
                 A deployed AI-powered system that analyzes resumes and
-                provides structured feedback for job seekers.
+                returns structured, actionable feedback.
               </p>
               <p className="text-sm text-neutral-500">
                 React · Node.js · AI Services · Live
@@ -67,17 +66,17 @@ export default function Home() {
 
             <li className="space-y-2">
               <h3 className="text-lg font-medium">
-                Project 3 (In Progress)
+                AI Application Tracker
               </h3>
               <p className="text-neutral-600">
-                An in-progress system focused on improving a specific
-                workflow, currently under active development.
+                An in-progress system focused on tracking applications
+                and automating follow-up workflows.
               </p>
               <p className="text-sm text-neutral-500">
                 React · Backend API · In Progress
               </p>
               <a
-                href="/work/project-3"
+                href="/work/project-three"
                 className="text-sm underline underline-offset-4"
               >
                 View case study →
@@ -89,10 +88,14 @@ export default function Home() {
         {/* Footer */}
         <footer className="pt-12 border-t border-neutral-200 space-y-4">
           <p className="text-sm text-neutral-600">
-            <a href="mailto:simba.chasumba15@gmail.com" className="underline underline-offset-4">
+            <a
+              href="mailto:simba.chasumba15@gmail.com"
+              className="underline underline-offset-4"
+            >
               simba.chasumba15@gmail.com
             </a>
           </p>
+
           <div className="flex gap-6 text-sm">
             <a
               href="https://github.com/SimbaChasumba1"
