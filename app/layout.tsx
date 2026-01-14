@@ -1,4 +1,5 @@
 import "./globals.css";
+import Link from "next/link";
 
 export default function RootLayout({
   children,
@@ -7,25 +8,44 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="max-w-5xl mx-auto px-6 py-6 bg-white text-neutral-900">
-        {/* Header */}
-        <header className="py-6 border-b border-neutral-200">
-          <nav className="flex justify-between text-sm">
-            <span className="font-medium">Simba Chasumba</span>
-            <div className="flex gap-6">
-              <a href="/">Home</a>
-              <a href="/work">Work</a>
-              <a href="/about">About</a>
+      <body className="bg-neutral-900 text-neutral-100 antialiased">
+        {/* Navigation */}
+        <header className="fixed top-0 z-50 w-full border-b border-neutral-800 bg-neutral-900/80 backdrop-blur">
+          <nav className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
+            <Link
+              href="/"
+              className="text-sm font-semibold tracking-wide text-white transition hover:text-emerald-400"
+            >
+              Simba Chasumba
+            </Link>
+
+            <div className="flex gap-8 text-sm">
+              <Link
+                href="/work"
+                className="text-neutral-300 transition hover:text-emerald-400"
+              >
+                Work
+              </Link>
+              <Link
+                href="/about"
+                className="text-neutral-300 transition hover:text-emerald-400"
+              >
+                About
+              </Link>
             </div>
           </nav>
         </header>
 
         {/* Page content */}
-        <main className="py-12">{children}</main>
+        <main className="pt-28 min-h-screen bg-neutral-900">
+          {children}
+        </main>
 
         {/* Footer */}
-        <footer className="py-12 text-sm text-neutral-500 border-t border-neutral-200">
-          © {new Date().getFullYear()}
+        <footer className="border-t border-neutral-800 bg-neutral-900 py-10">
+          <div className="mx-auto max-w-5xl text-center text-sm text-neutral-400">
+            © 2026 Simba Chasumba
+          </div>
         </footer>
       </body>
     </html>
