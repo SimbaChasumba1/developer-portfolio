@@ -36,7 +36,7 @@ export default function Home() {
           <ul className="space-y-10">
             {[
               {
-                title: "Client Project — Autofixer Promo Registration",
+                title: "Client Project (Autofixer Promo Registration)",
                 desc:
                   "A production website built for a startup promo drive, allowing users to submit contact details, upload short promo videos, and complete payments.",
                 stack: "Next.js · Supabase · PayPal · Live",
