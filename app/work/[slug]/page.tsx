@@ -118,7 +118,7 @@ const projects: Record<string, Project> = {
       "Deploy MVP",
     ],
     links: {
-      source: "https://github.com/your-repo",
+      source: "https://github.com/SimbaChasumba1/ai-application-tracker",
     },
   },
 };
