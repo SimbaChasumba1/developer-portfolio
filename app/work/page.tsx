@@ -11,8 +11,8 @@ export default function Work() {
             Systems
           </h1>
           <p className="max-w-xl text-neutral-400 leading-relaxed">
-            A selection of production systems and active builds.
-            Focused on real-world usage, scalability, and clean architecture.
+            A selection of production systems and active builds focused on
+            real-world usage, scalability, and clean architecture.
           </p>
         </header>
 
@@ -20,7 +20,7 @@ export default function Work() {
         <ul className="space-y-8">
           {[
             {
-              title: "Client Project — Autofixer Registration",
+              title: "Client Project (Autofixer Registration)",
               desc:
                 "Production onboarding and authentication system built for a real startup client.",
               href: "/work/client-project",
@@ -28,13 +28,13 @@ export default function Work() {
             {
               title: "AI Resume Analyzer",
               desc:
-                "Deployed AI system that evaluates resumes and returns structured, actionable feedback.",
+                "Live AI-powered application delivering structured resume analysis and feedback.",
               href: "/work/ai-resume-analyzer",
             },
             {
               title: "AI Application Tracker",
               desc:
-                "In-progress platform for tracking applications and automating follow-ups.",
+                "In-progress platform for tracking applications and automating follow-ups with AI insights.",
               href: "/work/project-three",
             },
           ].map((item) => (
@@ -54,9 +54,9 @@ export default function Work() {
 
                 <Link
                   href={item.href}
-                  className="shrink-0 inline-flex items-center gap-2 text-sm font-medium text-emerald-400"
+                  className="shrink-0 inline-flex items-center gap-2 text-sm font-medium text-blue-400"
                 >
-                  View case study
+                  View project
                   <span className="transition group-hover:translate-x-1">→</span>
                 </Link>
               </div>

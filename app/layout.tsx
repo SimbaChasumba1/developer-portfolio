@@ -14,7 +14,7 @@ export default function RootLayout({
           <nav className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
             <Link
               href="/"
-              className="text-sm font-semibold tracking-wide text-white transition hover:text-emerald-400"
+              className="text-sm font-semibold tracking-wide text-white transition hover:text-blue-400"
             >
               Simba Chasumba
             </Link>
@@ -22,13 +22,13 @@ export default function RootLayout({
             <div className="flex gap-8 text-sm">
               <Link
                 href="/work"
-                className="text-neutral-300 transition hover:text-emerald-400"
+                className="text-neutral-300 transition hover:text-blue-400"
               >
                 Work
               </Link>
               <Link
                 href="/about"
-                className="text-neutral-300 transition hover:text-emerald-400"
+                className="text-neutral-300 transition hover:text-blue-400"
               >
                 About
               </Link>

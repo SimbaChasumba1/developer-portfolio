@@ -8,20 +8,20 @@ export default function Home() {
         {/* Hero */}
         <section className="space-y-6">
           <h1 className="text-4xl font-semibold leading-tight max-w-3xl">
-            I build production web systems with{" "}
+            I build production-ready web applications with{" "}
             <span className="underline decoration-neutral-500 underline-offset-4">
               React, Node.js, and .NET
             </span>.
           </h1>
 
           <p className="text-lg text-neutral-300 leading-relaxed max-w-xl">
-            I focus on clean system design, reliable user flows,
-            and shipping real, deployed applications.
+            I focus on clean architecture, reliable user flows, and real-world
+            deployability across full-stack systems.
           </p>
 
           <a
             href="/work"
-            className="inline-flex items-center gap-2 text-sm font-medium text-emerald-400 hover:underline"
+            className="inline-flex items-center gap-2 text-sm font-medium text-blue-400 hover:underline"
           >
             View systems →
           </a>
@@ -36,28 +36,28 @@ export default function Home() {
           <ul className="space-y-10">
             {[
               {
-                title: "Client Project (Autofixer Registration)",
+                title: "Client Project — Autofixer Promo Registration",
                 desc:
-                  "A production system built for a real client to manage onboarding, authentication, and core business workflows.",
-                stack: "React · Node.js · .NET · Live",
+                  "A production website built for a startup promo drive, allowing users to submit contact details, upload short promo videos, and complete payments.",
+                stack: "Next.js · Supabase · PayPal · Live",
                 link: "/work/client-project",
                 image: "/client-project.png",
               },
               {
                 title: "AI Resume Analyzer",
                 desc:
-                  "An AI-powered system that analyzes resumes and returns structured, actionable feedback.",
-                stack: "React · Node.js · AI Services · Live",
+                  "A deployed AI-powered application that analyzes resumes and returns structured, actionable feedback.",
+                stack: "Next.js · ASP.NET Core · OpenAI · Live",
                 link: "/work/ai-resume-analyzer",
                 image: "/ai-resume-analyzer.png",
               },
               {
                 title: "AI Application Tracker",
                 desc:
-                  "An in-progress system focused on tracking applications and automating follow-ups.",
-                stack: "React · Backend API · In Progress",
+                  "An in-progress system for tracking job applications and automating follow-ups using AI insights.",
+                stack: "Next.js · Node.js · PostgreSQL · In Progress",
                 link: "/work/project-three",
-                image: "/projects/tracker.png",
+                image: "/ai-tracker.png",
               },
             ].map((item) => (
               <li
@@ -80,9 +80,9 @@ export default function Home() {
 
                   <a
                     href={item.link}
-                    className="inline-block pt-2 text-sm font-medium text-emerald-400 hover:underline"
+                    className="inline-block pt-2 text-sm font-medium text-blue-400 hover:underline"
                   >
-                    View case study →
+                    View project →
                   </a>
                 </div>
 
@@ -105,7 +105,7 @@ export default function Home() {
           <p className="text-sm text-neutral-400">
             <a
               href="mailto:simba.chasumba15@gmail.com"
-              className="hover:text-emerald-400 underline underline-offset-4"
+              className="hover:text-blue-400 underline underline-offset-4"
             >
               simba.chasumba15@gmail.com
             </a>
@@ -114,13 +114,13 @@ export default function Home() {
           <div className="flex gap-6 text-sm text-neutral-400">
             <a
               href="https://github.com/SimbaChasumba1"
-              className="hover:text-emerald-400 underline underline-offset-4"
+              className="hover:text-blue-400 underline underline-offset-4"
             >
               GitHub
             </a>
             <a
               href="https://linkedin.com/in/simba-chasumba-b52762251"
-              className="hover:text-emerald-400 underline underline-offset-4"
+              className="hover:text-blue-400 underline underline-offset-4"
             >
               LinkedIn
             </a>

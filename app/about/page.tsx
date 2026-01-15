@@ -27,21 +27,22 @@ export default function About() {
               </h1>
 
               <p className="text-neutral-300 leading-relaxed">
-                I’m a full-stack software developer and Computer Science graduate
-                who builds production-ready web systems with a strong focus on
-                clean architecture, reliable user flows, and deployable applications.
+                Full-stack software developer and Computer Science graduate building
+                production-ready web applications with a strong focus on clean
+                architecture, reliable user flows, and real-world deployability.
               </p>
 
               <p className="text-neutral-300 leading-relaxed">
-                I’ve worked on real startup products involving user onboarding,
-                secure payments, cloud integrations, and responsive user interfaces.
-                I typically own features end-to-end — from planning and implementation
-                through deployment and production debugging.
+                I’ve worked on live startup products involving user onboarding,
+                authentication, secure payments, cloud integrations, and responsive
+                user interfaces. I typically own features end-to-end; from planning
+                and implementation through deployment, debugging, and iteration in
+                production.
               </p>
 
               <p className="text-neutral-400 leading-relaxed">
-                Actively seeking opportunities to contribute, grow fast, and work
-                on impactful products.
+                Actively seeking opportunities to contribute to real products,
+                grow quickly, and work with strong engineering teams.
               </p>
             </div>
           </div>
@@ -55,9 +56,9 @@ export default function About() {
             </h2>
             <ul className="space-y-2 text-sm text-neutral-300">
               <li>React, Next.js, Tailwind CSS</li>
-              <li>Node.js, Express, .NET</li>
+              <li>Node.js, Express, ASP.NET Core</li>
               <li>REST APIs & backend architecture</li>
-              <li>Authentication & authorization</li>
+              <li>Authentication & authorization (JWT, sessions)</li>
               <li>Relational & document databases</li>
             </ul>
           </div>
@@ -71,7 +72,7 @@ export default function About() {
               <li>Clean, maintainable architecture</li>
               <li>End-to-end feature ownership</li>
               <li>Cloud deployment (Azure, Vercel)</li>
-              <li>Testing, debugging & monitoring</li>
+              <li>Debugging, monitoring & iteration in production</li>
             </ul>
           </div>
         </section>
