@@ -27,7 +27,7 @@ export default function About() {
               </h1>
 
               <p className="text-neutral-300 leading-relaxed">
-                Full-stack software developer and Computer Science graduate building
+                Full-stack software developer and Computer Science graduate, building
                 production-ready web applications with a strong focus on clean
                 architecture, reliable user flows, and real-world deployability.
               </p>
